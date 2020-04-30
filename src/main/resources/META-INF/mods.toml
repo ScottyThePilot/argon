@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/ScottyThePilot/argon/issues"
+
+[[mods]]
+modId="argon"
+version="1.0.0"
+displayName="Argon"
+displayURL="https://github.com/ScottyThePilot/argon"
+logoFile="argon_icon.png"
+authors="ScottyThePilot"
+description='''
+A simple mod with the purpose of making some minor practial additions.
+'''
+
+[[dependencies.argon]]
+  modId="forge"
+  mandatory=true
+  versionRange="[31,)"
+  ordering="NONE"
+  side="BOTH"
+
+[[dependencies.argon]]
+  modId="minecraft"
+  mandatory=true
+  versionRange="[1.15.2]"
+  ordering="NONE"
+  side="BOTH"

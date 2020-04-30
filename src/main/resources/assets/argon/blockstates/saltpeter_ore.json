@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "argon:block/saltpeter_ore" }
+  }
+}

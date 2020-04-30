@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "argon:saltpeter_ore"
+  },
+  "result": "argon:saltpeter",
+  "experience": 0.1,
+  "cookingtime": 100
+}
