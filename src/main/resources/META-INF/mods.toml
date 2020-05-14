@@ -4,7 +4,7 @@ issueTrackerURL="https://github.com/ScottyThePilot/argon/issues"
 
 [[mods]]
 modId="argon"
-version="1.0.0"
+version="1.1.0"
 displayName="Argon"
 displayURL="https://github.com/ScottyThePilot/argon"
 logoFile="argon_icon.png"

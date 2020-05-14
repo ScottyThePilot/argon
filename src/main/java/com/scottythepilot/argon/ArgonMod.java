@@ -1,7 +1,5 @@
 package com.scottythepilot.argon;
 
-import com.scottythepilot.argon.util.RegistryHandler;
-
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -24,7 +22,7 @@ public class ArgonMod {
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
 
-		RegistryHandler.init();
+		ArgonRegistryHandler.init();
 
 		MinecraftForge.EVENT_BUS.register(this);
 	}
@@ -34,7 +32,9 @@ public class ArgonMod {
 		ArgonOreGen.generateOre();
 	}
 
-	private void setup(final FMLCommonSetupEvent event) {}
+	private void setup(final FMLCommonSetupEvent event) {
+		ArgonRegistryHandler.addBrewingRecipes();
+	}
 
 	private void clientSetup(final FMLClientSetupEvent event) {}
 

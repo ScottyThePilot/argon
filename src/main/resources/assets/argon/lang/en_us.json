@@ -1,6 +1,22 @@
 {
-  "item.argon.saltpeter": "Nitre",
+  "item.argon.tanned_flesh": "Tanned Flesh",
+
   "item.argon.sulfur": "Brimstone",
+  "block.argon.nether_sulfur_ore": "Nether Brimstone Ore",
+  
+  "item.argon.saltpeter": "Nitre",
   "block.argon.saltpeter_ore": "Nitre Ore",
-  "block.argon.nether_sulfur_ore": "Nether Brimstone Ore"
+  
+  "block.argon.fertilized_dirt": "Fertilized Dirt",
+  "block.argon.fertilized_farmland": "Fertilized Farmland",
+  
+  "effect.argon.anti_poison": "Anti-Poison",
+  "item.minecraft.tipped_arrow.effect.anti_poison": "Arrow of Anti-Poison",
+  "item.minecraft.tipped_arrow.effect.long_anti_poison": "Arrow of Anti-Poison",
+  "item.minecraft.potion.effect.anti_poison": "Potion of Anti-Poison",
+  "item.minecraft.potion.effect.long_anti_poison": "Potion of Anti-Poison",
+  "item.minecraft.splash_potion.effect.anti_poison": "Splash Potion of Anti-Poison",
+  "item.minecraft.splash_potion.effect.long_anti_poison": "Splash Potion of Anti-Poison",
+  "item.minecraft.lingering_potion.effect.anti_poison": "Lingering Potion of Anti-Poison",
+  "item.minecraft.lingering_potion.effect.long_anti_poison": "Lingering Potion of Anti-Poison"
 }

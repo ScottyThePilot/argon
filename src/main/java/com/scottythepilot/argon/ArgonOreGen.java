@@ -1,7 +1,5 @@
 package com.scottythepilot.argon;
 
-import com.scottythepilot.argon.util.RegistryHandler;
-
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.Feature;
@@ -18,7 +16,7 @@ public class ArgonOreGen {
 				Feature.ORE
 					.withConfiguration(new OreFeatureConfig(
 						OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-						RegistryHandler.SALTPETER_ORE_BLOCK.get().getDefaultState(),
+						ArgonRegistryHandler.SALTPETER_ORE_BLOCK.get().getDefaultState(),
 						14
 					))
 					.withPlacement(
@@ -31,7 +29,7 @@ public class ArgonOreGen {
 				Feature.ORE
 					.withConfiguration(new OreFeatureConfig(
 						OreFeatureConfig.FillerBlockType.NETHERRACK,
-						RegistryHandler.SULFUR_ORE_BLOCK.get().getDefaultState(),
+						ArgonRegistryHandler.SULFUR_ORE_BLOCK.get().getDefaultState(),
 						10
 					))
 					.withPlacement(
